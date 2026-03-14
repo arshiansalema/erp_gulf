@@ -265,6 +265,11 @@ fixtures = [
 
     {
         "dt": "Server Script", "filters": [["module", "=", "Erp Gulf"]]
+    },
+
+    {
+    "dt": "City",
+    "filters": [["name", "in", ["Mumbai"]]]
     }
 
 
