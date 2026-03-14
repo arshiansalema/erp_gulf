@@ -1,0 +1,18 @@
+[
+ {
+  "airport": "Mumbai",
+  "docstatus": 0,
+  "doctype": "Airport",
+  "modified": "2026-03-13 12:19:34.396634",
+  "name": "Mumbai",
+  "title": "Mumbai"
+ },
+ {
+  "airport": "Delhi",
+  "docstatus": 0,
+  "doctype": "Airport",
+  "modified": "2026-03-13 12:19:45.926510",
+  "name": "Delhi",
+  "title": "Delhi"
+ }
+]

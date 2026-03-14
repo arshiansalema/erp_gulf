@@ -247,3 +247,25 @@ app_license = "mit"
 # List of apps whose translatable strings should be excluded from this app's translations.
 # ignore_translatable_strings_from = []
 
+fixtures = [
+    {
+        "dt": "Airport",
+        "filters": [
+            ["name", "in", ["Delhi", "Mumbai"]],
+        ]
+    },
+
+    {
+        "dt": "Customer", "filters": [["default_currency", "=", "INR"]]
+    },
+
+    {
+        "dt": "Client Script", "filters": [["module", "=", "Erp Gulf"]]
+    },
+
+    {
+        "dt": "Server Script", "filters": [["module", "=", "Erp Gulf"]]
+    }
+
+
+]
