@@ -270,6 +270,10 @@ fixtures = [
     {
     "dt": "City",
     "filters": [["name", "in", ["Mumbai"]]]
+    },
+
+    {
+        "dt": "Print Format", "filters": [["name", "=", "DEMO PRINT FORMAT"]]
     }
 
 
