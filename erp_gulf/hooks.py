@@ -133,6 +133,10 @@ app_license = "mit"
 # 	"ToDo": "custom_app.overrides.CustomToDo"
 # }
 
+override_doctype_class = {
+    "Bank": "erp_gulf.mybank.MyBank"
+}
+
 # Document Events
 # ---------------
 # Hook on document methods and events
@@ -177,6 +181,11 @@ app_license = "mit"
 # override_whitelisted_methods = {
 # 	"frappe.desk.doctype.event.event.get_events": "erp_gulf.event.get_events"
 # }
+override_whitelisted_methods = {
+	"frappe.realtime.get_user_info": "erp_gulf.mybank.get_user_info"
+}
+
+
 #
 # each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,
@@ -274,7 +283,14 @@ fixtures = [
 
     {
         "dt": "Print Format", "filters": [["name", "=", "DEMO PRINT FORMAT"]]
-    }
+    },
 
+    {
+        "dt": "Print Format", "filters": [["name", "=", "DEMO PRINT FORMAT 1"]]
+    },
+    
+    {
+        "dt": "Print Format", "filters": [["name", "=", "demo"]]
+    }
 
 ]
